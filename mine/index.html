@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal Design</title>
+  </head>
+  <body>
+    <button class="show-modal">Show Picture 1</button>
+    <button class="show-modal">Show Picture 2</button>
+    <button class="show-modal">Show Picture 3</button>
+
+    <div class="modal-1 hidden-1">
+      <div class="inner-modal">
+        <img src="../images/gym.png" alt="work-out" />
+      </div>
+      <div class="drop-shadow">
+        <button class="close-modal">&times;</button>
+        <h1>Health is Wealth</h1>
+      </div>
+    </div>
+
+    <div class="modal-2 hidden-2">
+      <div class="inner-modal">
+        <img class="img-2" src="../images/gym-2.png" alt="work-out" />
+      </div>
+      <div class="drop-shadow">
+        <button class="close-modal">&times;</button>
+        <h1>Work-out Daily</h1>
+      </div>
+    </div>
+
+    <div class="modal-3 hidden-3">
+      <div class="inner-modal">
+        <img class="img-3" src="../images/gym-3.png" alt="work-out" />
+      </div>
+      <div class="drop-shadow">
+        <button class="close-modal">&times;</button>
+        <h1>Grow your muscles</h1>
+      </div>
+    </div>
+
+    <div class="overlay hidden-overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
